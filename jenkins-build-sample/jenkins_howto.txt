@@ -1,0 +1,30 @@
+/// Jenkins
+*install
+    1.まずはJDKから
+    choco install openjdk
+    2.
+    choco install jenkins
+    3.
+    nvim C:\Program Files\Jenkins\jenkins.xml より httpportを変更
+
+*起動方法
+    C:\Program Files\Jenkins\jenkins.exe start (or restart)
+    (https://tielec.blog/index.php/jenkins-stop-start-restart/)
+
+*ユーザーがsystemとなってしまい、svnのcredentialsが通らないのでユーザーを変える
+    (https://iyemon018.hatenablog.com/entry/2017/01/25/080000)
+
+*権限設定
+    (https://zenn.dev/kaq/articles/e43f9572617570)
+
+*firewall設定
+    (https://note.com/hal_lab/n/nb3a7858b6f21)
+
+
+/// Apache
+*install
+    choco install apache-httpd
+
+*公開されるrootパス
+    C:\Users\ユーザー名\AppData\Roaming\Apache24\htdocs
+
