@@ -1,4 +1,9 @@
-/// Jenkins
+### wslのdocker上にjenkinsのmasterノードを立て、slaveとしてwindowsマシンを繋ぐ方法もある
+### 詳しくはgithubのdockerリポジトリを参照
+
+
+
+/// Windows上でJenkinsを立てる場合
 *install
     1.まずはJDKから
     choco install openjdk
