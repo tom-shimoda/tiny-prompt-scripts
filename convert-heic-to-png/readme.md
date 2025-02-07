@@ -28,3 +28,4 @@
     sudo apt install imagemagick -y
     ```
 
+[参考元](https://blog.k-bushi.com/post/tech/tips/convert-heic-to-png-with-imagemagick/)
